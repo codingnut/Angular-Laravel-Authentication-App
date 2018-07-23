@@ -9,7 +9,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { RequestComponent } from './components/password-reset/request/request.component';
 import { ResponseComponent } from './components/password-reset/response/response.component';
-
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -23,7 +23,8 @@ import { ResponseComponent } from './components/password-reset/response/response
     ResponseComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
