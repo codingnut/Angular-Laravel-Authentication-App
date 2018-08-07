@@ -2,3 +2,9 @@
 .bd-navbar {
     background-color: #563d7c;
 }
+.ng-invalid:not(form) {
+    border-left: 1px solid #ced4da;
+}
+.ng-invalid:not(form) {
+    border-left: solid 2px red;
+}
